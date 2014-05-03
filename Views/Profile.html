@@ -1,0 +1,31 @@
+
+
+<div ng-include="'Views/header.html'" ></div>
+<hr />
+
+<div class="profile">
+<img src="{{myProfile.dpUrl}}" id="ProfilePic"/> 
+<div class="rightContent">
+
+<ul>
+<li><h1>{{myProfile.BaseResponse.name}}</h1></li>
+<li><h4>{{myProfile.BaseResponse.hometown.name}}</h4></li>
+<li><h4>{{myProfile.BaseResponse.birthday}}</h4></li>
+</div>
+<div class="about_me">
+
+
+{{myProfile.BaseResponse.bio}}
+
+</div>
+
+<div class="Photos">
+<ul>
+<li ng-repeat="photo in myProfile.Photos.data" > 
+<a href="{{photo.link}}" target="_blank"><img src="{{photo.picture}}" /></a>
+</li>
+
+</ul>
+</div>
+
+</div>

@@ -1,0 +1,131 @@
+*{
+
+padding:0;
+margin:0;
+
+}
+
+.container{
+
+height:670px;
+border:1px solid #ccc;
+margin-top:50px;
+border-radius:5px;
+}
+
+
+#signIn{
+
+width:70%;
+position:relative;
+left:50%;
+margin-left:-35%;
+top:260px;
+}
+
+.Profile img{
+
+width:200px;
+height:200px;
+float:left;
+box-shadow:0 0 12px #000;
+}
+ul{
+
+list-style:none;
+}
+.Profile .rightContent{
+
+height:200px;
+
+float:left;
+padding:20px;
+padding-top:10px;
+}
+.Profile .rightContent ul{
+
+margin-left:50px;
+list-style:none;
+
+}
+
+.Profile .rightContent ul li{
+
+margin-top:20px;
+}
+
+.about_me{
+
+height:150px;
+position:relative;
+top:30px;
+margin-top:30px;
+border:1px solid #333 ;
+border-radius:5px;
+clear:both;
+padding:20px;
+font-size:18px;
+
+}
+
+
+
+.Photos{
+position:relative;
+top:50px;
+height:164px;
+border:1px solid #333 ;
+border-radius:5px;
+overflow-x:scroll;
+overflow-y:hidden;
+}
+.Photos ul{
+
+list-style:none;
+height:160px;
+width:3000px;
+
+}
+
+.Photos ul li
+{
+
+width:130px;
+height:130px;
+padding:10px;
+float:left;
+margin-right:20px;
+}
+.Photos ul li img{
+
+width:130px;
+height:130px;
+
+}
+
+#listLikes{
+
+height:550px;
+overflow-y:scroll;
+overflow-x:hidden;
+
+
+}
+
+
+.header{
+height:50px;
+
+
+}
+.header .buttonPanel{
+height:50px;
+
+}
+
+.header .buttonPanel button{
+width:130px;
+float:left;
+margin-top:20px;
+margin-right:50px;
+}

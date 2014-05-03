@@ -1,0 +1,12 @@
+
+
+<div ng-include="'Views/header.html'" ></div>
+<hr />
+<div>
+
+<ul class="list-group">
+<h2>None of the friends have used this app!</h2>
+<li ng-repeat=" friend in myProfile.Friends.data" class="list-group-item" >{{friend.name}}</li>
+<ul>
+
+</div>
